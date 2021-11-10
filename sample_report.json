@@ -1,0 +1,58 @@
+[
+  {
+    "description": "    Feature Description : to verify the color a element",
+    "elements": [
+      {
+        "description": "",
+        "id": "color;verifying-color",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "verifying color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to the url",
+            "match": {
+              "location": "stepDefinitions\\color.StepDef.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user verifies the color",
+            "match": {
+              "location": "stepDefinitions\\color.StepDef.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "color",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "color",
+    "tags": [],
+    "uri": "features\\color.feature"
+  }
+]
