@@ -29,7 +29,7 @@ Then('admin enters the username', async function () {
         await element(by.id('username')).sendKeys(properties.get('userName'));
 
     } catch (error) {
-        console.log('invalid username');
+        console.log('invalid username please provide a valid username');
         console.log(error.name);
     }
 });
